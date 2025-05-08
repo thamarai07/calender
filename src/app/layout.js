@@ -15,13 +15,13 @@ export const metadata = {
   title: "Interactive Date Picker with Countdown Timer | MyCalendar App",
   description:
     "Explore a fully interactive date range picker with a real-time countdown. Choose your dates, see the days in range, and enjoy smooth animations!",
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://calendaring.netlify.app/"),
   robots: "index, follow",
   openGraph: {
     title: "Interactive Calendar with Countdown Timer",
     description:
       "A beautifully animated calendar tool that lets you pick a date range, view total days, and see a live countdown timer.",
-    url: "https://your-domain.com/calendar",
+    url: "https://calendaring.netlify.app/",
     siteName: "MyCalendar App",
     images: [
       {
@@ -47,11 +47,12 @@ export const metadata = {
   manifest: "/site.webmanifest",
   applicationName: "Date Range Picker",
   other: {
+    "google-site-verification": "e4pplODfxnOVfi3dL36asP0vCLm2xHNMMISDy-KzGfg",
     "ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "WebApplication",
       name: "Date Range Picker",
-      url: "https://your-domain.com/calendar",
+      url: "https://calendaring.netlify.app/",
       applicationCategory: "Productivity",
       operatingSystem: "All",
       description:
@@ -64,6 +65,7 @@ export const metadata = {
     }),
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
