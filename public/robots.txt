@@ -1,9 +1,3 @@
-# *
 User-agent: *
-Allow: /
-
-# Host
-Host: https://calendaring.netlify.app
-
-# Sitemaps
-Sitemap: https://calendaring.netlify.app/sitemap.xml
+Disallow:
+Sitemap: https://calendaring.netlify.app/sitemap-0.xml
